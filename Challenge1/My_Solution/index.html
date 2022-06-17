@@ -8,16 +8,43 @@
   <link rel="stylesheet" href="./styles/index.css">
   <title>Chalenge 1 | NFT preview card component</title>
 </head>
-<body class="flex">
+<body class="flex-card">
     <div class="card bg-card">
         <div class="card-header">
           <img class="size-img" src="../images/image-equilibrium.jpg" alt="">
         </div>
         <div class="card-body">
-          <span class=" margin-15 text-color">
+          <span class=" margin-left-15 text-color display-block">
               Equilibrium
-          </span>
-          
+          </span> 
+          <div class="margin-left-15 margin-top-15">
+            <span class="font-size width-paragraph-card text-color-paragraph">
+              our equilibrium collection promotes balances and calm
+            </span>
+          </div>
+
+          <div class="margin-left-15 margin-top-15 flex">
+              <div class="flex">
+                <img class="svg-size" src="../images/icon-ethereum.svg" alt=""> 
+                
+                <span class="color-cyan margin-inter-svg font-size">
+                    0.04 ETH
+                </span>
+              </div>
+            
+              <div class="flex margin-right-15">
+                <img src="../images/icon-clock.svg" alt="">
+                <span class="font-size text-color-paragraph margin-inter-svg">
+                  3 days left
+                </span>
+              </div>
+              
+          </div>
+          <hr style="width: 250px;" class="margin-top-15">
+          <div class="margin-left-15 margin-top-15 flex">
+            <img class="avatar-size" src="../images/image-avatar.png" alt="">
+            <span>Creation of Jules Wyvern</span>
+          </div>
         </div>
     </div>
 </body>

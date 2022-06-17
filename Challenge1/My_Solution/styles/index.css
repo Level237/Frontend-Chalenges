@@ -5,15 +5,20 @@ body{
     
 }
 
-.flex{
+.flex-card{
     display: flex;
     justify-content: center;
     align-items: center;
 }
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 .card{
-    width: 250px;
-    height: 400px;
+    width: 300px;
+    height: 460px;
     margin: 130px;
     border-radius: 11px;   
 }
@@ -22,7 +27,7 @@ body{
 }
 .size-img{
     width: 90%;
-    aspect-ratio: 16/16;
+    aspect-ratio: 16/14;
     margin-left: 15px;
     margin-right: 15px;
     margin-top: 15px;
@@ -33,6 +38,38 @@ body{
     color: hsl(0, 0%, 100%);
     
 }
-.margin-15{
+.margin-left-15{
     margin-left: 15px;
-}   
+}
+.margin-right-15{
+    margin-right: 15px;
+}
+
+.display-block{
+    display: block;
+}
+.font-size{
+    font-size: 15px;
+}
+.width-paragraph-card{
+    width: 100px;
+}
+.text-color-paragraph{
+    color: hsl(215, 51%, 70%);
+}
+.margin-top-15{
+    margin-top: 15px;
+}
+.svg-size{
+    width: 10px;
+}
+.color-cyan{
+    color: hsl(178, 100%, 50%);
+}
+.margin-inter-svg{
+    margin-left: 3px;
+}
+
+.avatar-size{
+    width: 30px;
+}
