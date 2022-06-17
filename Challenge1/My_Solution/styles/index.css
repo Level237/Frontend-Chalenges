@@ -1,7 +1,38 @@
-::root{
-    --background-color:hsl(217, 54%, 11%);
-}
+
 
 body{
     background-color: hsl(217, 54%, 11%);
+    
 }
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 250px;
+    height: 400px;
+    margin: 130px;
+    border-radius: 11px;   
+}
+.bg-card{
+    background-color: hsl(216, 50%, 16%);
+}
+.size-img{
+    width: 90%;
+    aspect-ratio: 16/16;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 12px;
+}
+
+.text-color{
+    color: hsl(0, 0%, 100%);
+    
+}
+.margin-15{
+    margin-left: 15px;
+}   
