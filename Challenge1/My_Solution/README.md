@@ -41,8 +41,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [my Solution](https://github.com/Level237/Frontend-Chalenges/tree/main/Challenge1/My_Solution)
+- Live Site URL: [My chalenges](https://github.com/Level237/Frontend-Chalenges)
 
 ## My process
 
@@ -98,8 +98,8 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Website - [level237](https://github.com/Level237)
+- Frontend Mentor - [@Level237](https://www.frontendmentor.io/profile/Level237)
 - Twitter - [@yourusername](https://www.twitter.com/yourusername)
 
 **Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
