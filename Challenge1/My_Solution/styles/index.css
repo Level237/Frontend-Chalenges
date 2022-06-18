@@ -2,7 +2,7 @@
 
 body{
     background-color: hsl(217, 54%, 11%);
-    
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .flex-card{
@@ -20,7 +20,9 @@ body{
     width: 300px;
     height: 460px;
     margin: 130px;
-    border-radius: 11px;   
+    border-radius: 11px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 .bg-card{
     background-color: hsl(216, 50%, 16%);
@@ -49,7 +51,7 @@ body{
     display: block;
 }
 .font-size{
-    font-size: 15px;
+    font-size: 14px;
 }
 .width-paragraph-card{
     width: 100px;
@@ -60,7 +62,10 @@ body{
 .margin-top-15{
     margin-top: 15px;
 }
-.svg-size{
+.svg-size-15{
+    width: 15px;
+}
+.svg-size-12{
     width: 10px;
 }
 .color-cyan{
@@ -72,4 +77,11 @@ body{
 
 .avatar-size{
     width: 30px;
+}
+
+.margin-right-20{
+    margin-right: 70px;
+}
+.font-weight{
+    font-weight:bold;
 }
