@@ -98,7 +98,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Website - [level237](https://github.com/Level237)
+- Website - [level237](https://level237.github.io/Frontend-Chalenges/Challenge1/My_Solution/)
 - Frontend Mentor - [@Level237](https://www.frontendmentor.io/profile/Level237)
 - Twitter - [@yourusername](https://www.twitter.com/yourusername)
 

@@ -10,6 +10,11 @@ body{
     justify-content: center;
     align-items: center;
 }
+.border-top{
+    border-top: solid 1px gray;
+    border-width: 1px;
+    
+}
 .flex{
     display: flex;
     justify-content: space-between;
@@ -17,12 +22,13 @@ body{
 }
 
 .card{
-    width: 300px;
-    height: 460px;
+    max-width: 300px;
+    
     margin: 100px;
     border-radius: 11px;
     padding-left: 5px;
     padding-right: 5px;
+    padding-bottom: 20px;
 }
 .bg-card{
     background-color: hsl(216, 50%, 16%);
@@ -77,6 +83,7 @@ body{
 
 .avatar-size{
     width: 30px;
+
 }
 
 .margin-right-20{
@@ -87,44 +94,16 @@ body{
 }
 
 @media (min-width:422px) and (max-width:512px){
-    .card{
-        margin-right: 50px;
-        margin-left: 50px;
-        margin-top: 80px;
-        margin-bottom: 80px;
-        padding: 12px;
-        background-color: red;
-        padding-bottom: 1px;
-    }
-    .margin-right-20{
-        margin-right: 65px;
-    }
+    
 }
 
 @media (min-width:375px) and (max-width:422px) {
-    .margin-right-20{
-        margin-right: 35px;
-    }
-    .card{
-        margin-right: 50px;
-        margin-left: 50px;
-        margin-top: 80px;
-        margin-bottom: 80px;
-        padding: 12px;
-        
-        padding-bottom: 1px;
-    }
+    
 }
 
 @media (max-width:375px) {
     .card{
-        margin-right: 50px;
-        margin-left: 50px;
-        margin-top: 80px;
-        margin-bottom: 80px;
-        padding: 12px;
         
-        padding-bottom: 1px;
     }
 }
 
