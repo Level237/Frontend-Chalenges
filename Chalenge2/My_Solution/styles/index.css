@@ -67,4 +67,10 @@ button{
     border: none;
 }
 
+@media (min-width:375px) and (max-width:690px) {
+    
+    .card{
+        grid-template-columns: 1fr;
+    }
+}
 
