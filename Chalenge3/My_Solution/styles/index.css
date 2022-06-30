@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color:hsl(212, 45%, 89%);
+}
+
+.card{
+    max-width: 300px;
+    background-color:  hsl(0, 0%, 100%);
+    display: block;
+    padding: 15px;
+    border-radius: 15px;
+}
+.image{
+    width: 100%;
+    max-height: 300px;
+}
+.description-bloc{
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    padding-bottom: 1rem;
+}
+.description-bloc h3{
+    text-align: center;
+}
+.description-bloc p{
+    text-align: center;
+    font-size: 0.9rem;
+    
+}
