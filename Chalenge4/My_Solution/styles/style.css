@@ -1,0 +1,42 @@
+.container-grid{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+.container-panel{
+    
+    background-color: hsl(278, 94%, 30%);
+    
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 290px;
+    z-index: 3;
+    
+}
+.container-form{
+   flex: 1;
+}
+
+.absolute-img{
+    position: absolute;
+    z-index: 5;
+    
+    
+    
+}
+.card-top{
+    top: 160px;
+    left: 80px;
+}
+
+.card-bottom{
+    top: 340px;
+    left: 140px;
+}
+.size-img{
+    width: 300px;
+}
