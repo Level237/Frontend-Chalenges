@@ -16,25 +16,63 @@
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-        <section class="container-grid">
-            <div class="container-panel">
-              <div class=" ">
-                <img src="../../images/bg-card-front.png" alt="" class="size-img card-top absolute-img">
-                <img src="../../images/bg-card-back.png" alt="" class="size-img absolute-img card-bottom">
-              </div>
-                
+    <nav>
+        <div class="container-panel">
+              
+            <img src="../../images/bg-card-front.png" alt="" class="size-img card-top absolute-img">
+            <img src="../../images/bg-card-back.png" alt="" class="size-img absolute-img card-bottom">
+          
+        </div>
+    </nav>
+        <main>
+            <div class="container">
+                <div class="container-form">
+                    <form action="">
+                        <div class="block-label">
+                            <div>
+                                <label for="name" class="label-input">CARDHOLDER NAME</label>
+                            </div>
+                            <div>
+                                <input type="text" class="input-text">
+                            </div>
+                        </div>
+                        <div class="block-label">
+                            <div>
+                                <label for="name" class="label-input">CARD NUMBER</label>
+                            </div>
+                            <div>
+                                <input type="text" class="input-text">
+                            </div>
+                        </div>
+                        <div class="block-label">
+                            <div class="flex ">
+                                <div class="label-input flex-left">
+                                    EXP DATE (MM/YY)
+                                </div>
+                                <div class="label-input flex-right">
+                                    CVC
+                                </div>
+                            </div>
+                            <div class="flex ">
+                                <div class="margin-right-9" >
+                                    <input type="text" style="width:40px ;" class="input-text">
+                                </div>
+                                <div class="margin-right-12" >
+                                    <input type="text" style="width:40px ;" class="input-text">
+                                </div>
+                                <div class="margin-right-12" >
+                                    <input type="text" style="width:90px ;"class="input-text">
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <button type="submit" class="button-size">Confirm</button>
+                        </div>
+                    </form>
+                </div>
             </div>
-            <div class="container-form">
-                <form action="">
-                    <div>
-                        <label for="name">CARDHOLDER NAME</label>
-                    </div>
-                    <div>
-                        <input type="text">
-                    </div>
-                </form>
-            </div>
-        </section>
+            
+        </main>
   </div>
 </body>
 </html>
