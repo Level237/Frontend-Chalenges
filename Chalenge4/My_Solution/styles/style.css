@@ -37,22 +37,74 @@ body{
 
 .absolute-img{
     position: absolute;
-    z-index: 5;
-    
-    
-    
 }
-.card-top{
-    top: 140px;
-    left: 80px;
+
+p-12{
+    top: 0;
 }
 
 .card-bottom{
-    top: 340px;
+    top: 280px;
     left: 140px;
 }
-.size-img{
+.circle-top-160{
+    top: 10px;
+    left: 18px;
+}
+.circle-top-130{
+    top: 18px;
+    left: 68px;
+}
+.infos-top{
+    top: 70px;
+    left: 18px;
+    color: white;
+    font-size: 18px;
+}
+
+.circle-p-18{
+    padding: 18px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 10;
+    
+}
+
+.circle-p-5{
+    padding: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 10;
+}
+.p-rel-115{
+    position: relative;
+    
+    z-index: 6;
     width: 300px;
+    top: 115px;
+    left: 115px;
+    
+
+}
+.p-rel-120{
+    position: relative;
+    
+    z-index: 6;
+    width: 300px;
+    top: 270px;
+    left: 180px;
+}
+.size-img{
+    width: 100%;
+}
+
+.informations{
+    position: absolute;
+    z-index: 10;
 }
 
 .input-text{
@@ -95,4 +147,24 @@ body{
     cursor: pointer;
     border-style: none;
     border-radius: 5px;
+}
+
+.p-name{
+    z-index: 10;
+    top: 100px;
+    left: 18px;
+    color: white;
+    font-size: 13px;
+    
+}
+.m-5{
+    margin-top: 30px;
+}
+
+.p-exp{
+    z-index: 10;
+    top: 100px;
+    left: 250px;
+    color: white;
+    font-size: 13px;
 }
