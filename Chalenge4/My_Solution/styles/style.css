@@ -13,7 +13,8 @@ body{
 
 .container-panel{
     
-    background-color: hsl(278, 94%, 30%);
+    background: hsl(278, 94%, 30%);
+
     
     position: fixed;
     top: 0;
@@ -155,6 +156,8 @@ p-12{
     left: 18px;
     color: white;
     font-size: 13px;
+    position:absolute;
+    margin-top: 30px;
     
 }
 .m-5{
